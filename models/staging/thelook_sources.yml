@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: thelook
+    database: bigquery-public-data   # BigQuery dataset
+    schema: thelook_ecommerce
+    tables:
+      - name: orders
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+      - name: order_items
+        columns:
+          - name: order_id
+            tests:
+              - not_null
+              - relationships:
+                  to: source('thelook', 'orders')
+                  field: order_id

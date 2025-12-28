@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+# 1. Project Overview
 
-### Using the starter project
+A dbt project built on TheLook E-commerce BigQuery public dataset designed to explore modern data modeling as well as extract, load and transform (ELT) workflows. This project covers the use of data models including staging, fact and intermediate models. Limitations for this project
+includes small-scale pipeline (rowcount of over 100k), lack of incremental models and orchestration.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Below shows the high-level flowchart depicting the architecture of the project.
+
+![Project Architecture Flowchart](./looker-ecommerce-elt-pipeline-flowchart.drawio.png)
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+# 2. Tech Stack and Environment
+
+- Programming Languages: SQL, Jinja
+- Data Modeling: dbt-core v1.11.2
+- Cloud Warehouse: BigQuery
+- IDE: Pycharm 2025.3.1
+- Version Control: Git/GitHub
+- OS: Windows 11
+- Packages: dbt_utils
+
+# 3. Data Sources and Schema
+
+

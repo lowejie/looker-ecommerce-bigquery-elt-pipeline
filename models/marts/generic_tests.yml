@@ -1,4 +1,5 @@
 models:
+# Generic tests to test unique and not null values for primary key column and relationship to staging orders model for fact orders model
   - name: fct_orders
     columns:
       - name: order_key
@@ -9,6 +10,7 @@ models:
               to: ref('stg_thelook_orders')
               field: order_key
               severity: warn
+# Generic test to test for accepted values for status code column
       - name: status_code
         tests:
           - accepted_values:

@@ -1,3 +1,4 @@
+-- Singular test to test for dates later than current date and dates earlier than 1990-01-01
 select
     *
 from

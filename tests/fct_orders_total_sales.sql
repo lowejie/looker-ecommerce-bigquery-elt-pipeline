@@ -1,3 +1,4 @@
+-- Singular test to test for negative value in total sales amount in fact orders model
 select
     *
 from

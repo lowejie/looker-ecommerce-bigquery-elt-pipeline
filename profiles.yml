@@ -1,0 +1,14 @@
+<profile_name>:
+  outputs:
+    dev:
+      dataset: <YOUR_DATASET>
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: <PATH_TO_YOUR_SERVICE_ACCOUNT_JSON>
+      location: US
+      method: service-account
+      priority: interactive
+      project: <YOUR_PROJECT_ID>
+      threads: 10
+      type: bigquery
+  target: dev

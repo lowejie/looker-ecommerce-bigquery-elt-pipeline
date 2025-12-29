@@ -148,16 +148,16 @@ This project showcased how dbt enables version control, documentation and data t
 
 Inspired by a Youtube tutorial video on ELT pipeline project using dbt, Snowflake and Airflow. Dataset and cloud warehouse differ from the original implementation. This project uses a BigQuery public dataset and Google BigQuery as the data warehouse.
 
-Youtube tutorial video link:
-Code along - build an ELT Pipeline in 1 Hour (dbt, Snowflake, Airflow) by jayzern
+Youtube tutorial video \
+Code along - build an ELT Pipeline in 1 Hour (dbt, Snowflake, Airflow) by jayzern \
 Link: https://www.youtube.com/watch?v=OLXkGB7krGo
 
-dbt Fundamentals
-Learn dbt fundamentals
+dbt Fundamentals \
+Learn dbt fundamentals \
 Link: https://learn.getdbt.com/learn/course/dbt-fundamentals/welcome-to-dbt-fundamentals-5min/
 
-Google Cloud Platform:
-BigQuery Documentation
+Google Cloud Platform \
+BigQuery Documentation \
 Link: https://docs.cloud.google.com/bigquery/docs
 
 
